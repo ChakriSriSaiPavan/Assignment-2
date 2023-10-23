@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>WSD Assignment 2</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Reverse</h1>
+        <div>
+            <label for="Input">Enter a Value</label>
+            <input type="text" id="Input">
+            <button onclick="reverseFunction()">Submit</button>
+        </div>
+        <p id="reversed"></p>
+    </div>
+
+    <div class="container">
+        <h1>Palindrome</h1>
+        <div>
+            <label for="Input">Enter the Number </label>
+            <input type="text" id="Input">
+            <button onclick="palindromeFunction()">Submit</button>
+        </div>
+        <p id="palindrome"></p>
+    </div>
+
+    <div class="container">
+        <h1>Amout Calculator</h1>
+        <div>
+            <label for="SubtotalInput">Enter Subtotal: </label>
+            <input type="number" id="subtotalInput">
+            <br><br>
+            <label for="TipPercentageInput">Enter Tip Percentage: </label>
+            <input type="number" id="tipPercentageInput">
+            <button onclick="totalFunction()">Submit</button>
+        </div>
+        <p id="totalAmount"></p>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
